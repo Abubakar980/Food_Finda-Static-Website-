@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    background-color: #25252591;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url(./html/images/body-bg.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    width: 42cm;
+}
+
+.navleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8EB50B;
+    width: 8cm;
+    margin-left: 3cm;
+    color: white;
+    font-weight: 700;
+}
+
+#icon_call{
+    padding: 0px 7px;
+}
+
+.navmid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.navright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8EB50B;
+    width: 8cm;
+    margin-right: 3cm;
+    color: white;
+    font-weight: 700;
+}
+
+#icon_email{
+    padding: 0px 7px;
+}
+
+.nav_links_left{
+    display: flex;
+}
+
+.nav_links_left ul{
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 41cm;
+}
+
+ul a{
+    list-style-type: none;
+    margin: 0px 7px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-family: Arial;
+}
+
+.nav_links_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8EB50B;
+    border-bottom: 2px solid;
+    width: 42cm;
+    height: 1cm;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login{
+    margin-right: 5px;
+}
+
+.find_online{
+    background-color: #8EB50B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.online_info_p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px black;
+}
+
+.finda_app_online{
+    color: #252525;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px white;
+}
+
+.online_info_detail{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.online_info_butn{
+    margin-top: 20px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #252525;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.nav_links_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8EB50B;
+    width: 42cm;
+    height: 1cm;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_section{
+    background-color: rgba(37, 37, 37, 0.884);
+    height: 10cm;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_section> .extra_links{
+    width: 26cm;
+    height: 5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2cm;
+}
+
+.footer_section> .extra_links> .short_intro{
+    /* background-color: black; */
+    height: 190px;
+    width: 9cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.footer_section> .extra_links> .navigation{
+    /* background-color: black; */
+    height: 190px;
+    width: 9cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.navigation_head .navigation_head_p{
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.footer_section> .extra_links>.contact_info{
+    /* background-color: black; */
+    height: 190px;
+    width: 9cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.location_head_p1{
+    color: #8EB50A;
+    margin-left: 15px;
+}
+
+.location_head_p2{
+    color: white;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.customer_services{
+    color: #8EB50A;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+.gmail{
+    color: white;
+    margin-top: 7px;
+}
+
+.contact_info_head{
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.footer_section> .extra_links>.discover{
+    height: 190px;
+    width: 9cm;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    position: relative;
+    top: 25px;
+}
+
+#NAV_links{
+    list-style-type: disc;
+    margin-left: 20px;
+    color: white;
+}
+
+.discover_a_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.discover_a_links a{
+    padding-top: 1px;
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+ol{
+    list-style-type: none;
+}
+
+.discover p{
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.img_links{
+    display: flex;
+    font-size: 40px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.footer {
+    height: 60px;
+    background-color: #8EB50A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.short_intro_head span{
+    width: 100%;
+float: left;
+font-size: 40px;
+color: #fff;
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 0;
+font-size: 25px;
+margin-top: 15px;
+}
+
+.short_intro_head> p{
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #f8f8f8;
+    margin: 0;
+    padding-top: 10px;
+}
